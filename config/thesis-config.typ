@@ -1,4 +1,4 @@
-#import "@preview/glossarium:0.5.8": make-glossary, register-glossary, print-glossary, gls, glspl, gls-short, gls-description
+#import "@preview/glossarium:0.5.9": make-glossary, register-glossary, print-glossary, gls, glspl, gls-short, gls-description
 #import "@preview/codly:1.3.0": *
 #import "@preview/codly-languages:0.1.8": *
 #import "../config/constants.typ": chapter, appendix
@@ -16,9 +16,6 @@
   // Set the document's basic properties.
   set document(author: myAuthor, title: myTitle)
 
-  // Glossary bootstrap and setup
-  show: make-glossary
-  register-glossary(glossary-terms)
   // Codly bootstrap and setup
   show: codly-init.with()
   codly(languages: codly-languages, zebra-fill: gray.lighten(90%))
@@ -67,6 +64,9 @@
   // Per questo motivo ogni tabella deve essere racchiusa in un blocco di codice #{ } o di contenuto #[ ] per isolarne le regole. (se trovate un modo migliore aprite una pr :D )
   //show figure: set block(breakable: true)
 
+  // Glossary bootstrap and setup
+  show: make-glossary
+  register-glossary(glossary-terms)
   body
 }
 
