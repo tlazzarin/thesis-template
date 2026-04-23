@@ -9,7 +9,7 @@
 #text(24pt, weight: "semibold", abstract)
 
 #v(1em)
-Il presente documento descrive il lavoro svolto durante il periodo di stage curricolare, della durata di circa trecentoventi ore, dal laureando #text(myName) presso l'azienda #text(myCompany). Lo stage è stato condotto sotto la supervisione del tutor aziendale Francesco #myTutor, mentre il prof. #text(myProf) ha ricoperto il ruolo di tutor accademico.
+Il presente documento descrive il lavoro svolto durante il periodo di stage curricolare, della durata di circa trecentoventi ore, dal laureando #text(myName) presso l'azienda #text(myCompany). Lo stage è stato condotto sotto la supervisione del tutor aziendale #myTutor, mentre il prof. #text(myProf) ha ricoperto il ruolo di tutor accademico.
 \ \
 Questa tesi tratta la progettazione e lo sviluppo di *Nome progetto*, una piattaforma web il cui scopo è .... L'obiettivo è quello di ....
 

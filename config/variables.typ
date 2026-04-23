@@ -1,7 +1,7 @@
 #let myLang = "it" // it/en only
-#let myName = "Terry A. Davis"
+#let myName = "Mario Rossi"
 #let myMatricola = "1234567"
-#let myTitle = "Titolo poco lungo di una tesi che leggerai solo tu e forse il relatore."
+#let myTitle = "Titolo della tesi."
 #let myProf = "Prof. Supervisor"
 #let myCompany = "Azienda SRL"
 #let myLocation = "Padova"
