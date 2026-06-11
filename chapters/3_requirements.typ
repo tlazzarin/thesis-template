@@ -75,7 +75,7 @@ In @tab:requisiti-funzionali, @tab:requisiti-qualitativi e @tab:requisiti-vincol
         table.header([*Codice*], [*Descrizione*], [*Fonti*]),
         ..getFR().flatten()
     ),
-    caption: "Tracciamento dei requisti funzionali.",
+    caption: "Tracciamento dei requisiti funzionali.",
 )
 <tab:requisiti-funzionali>
 
@@ -86,7 +86,7 @@ In @tab:requisiti-funzionali, @tab:requisiti-qualitativi e @tab:requisiti-vincol
       table.header([*Codice*], [*Descrizione*], [*Fonti*]),
       ..getQR().flatten()
     ),
-    caption: "Tracciamento dei requisti di qualità.",
+    caption: "Tracciamento dei requisiti di qualità.",
 )
 <tab:requisiti-qualitativi>
 
@@ -97,7 +97,7 @@ In @tab:requisiti-funzionali, @tab:requisiti-qualitativi e @tab:requisiti-vincol
       table.header([*Codice*], [*Descrizione*], [*Fonti*]),
       ..getCR().flatten()
     ),
-    caption: "Tracciamento dei requisti di vincolo.",
+    caption: "Tracciamento dei requisiti di vincolo.",
 )
 <tab:requisiti-vincolo>
 
