@@ -9,6 +9,6 @@
 #let myTime = "Luglio 2025"
 #let myTutor = "Tutor aziendale"
 #let myUni = "Università degli studi di Padova"
-#let myDepartment = "Dipartimento di Matematica ''Tullio Levi-Civita''"
+#let myDepartment = [Dipartimento di Matematica 'Tullio Levi-Civita']
 #let myFaculty = "Corso di Laurea in Informatica"
 #let myDegree = "Tesi di laurea triennale"
